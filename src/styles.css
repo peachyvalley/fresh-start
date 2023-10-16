@@ -1,0 +1,54 @@
+h1 {
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 28px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li::first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
+}
+.weather-app {
+  font-family: "Roboto Mono", monospace;
+  padding: 20px;
+  /* text-align: center; */
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
